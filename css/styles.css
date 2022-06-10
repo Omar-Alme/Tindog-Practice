@@ -1,0 +1,183 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+/* HEADINGS */
+
+.big-heading{
+  font-family:'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINERS */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+}
+
+/* DOWNLOAD BUTTON */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+
+#Title .container-fluid{
+  padding: 3% 15%;
+  text-align: left;
+}
+
+.dogiphone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: static;
+  right: 30%;
+}
+
+/* FEATURES SECTION */
+
+#Features{
+  position: relative;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.features-box{
+  padding:5%;
+}
+
+.icon-size{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon-size:hover {
+    color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+
+#Testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog-testimonial{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.lady-testimonial{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#Press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* SUBSCRIPTIONS SECTION */
+
+#Subscriptions{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* Footer */
+
+.social-media{
+  margin: 20px 10px;
+}
+
+
+@media (max-width:1028px)  {
+
+  #Title {
+    text-align: center;
+  }
+
+  .dogiphone {
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
